@@ -125,7 +125,7 @@ const Chat = () => {
                     <div className={styles.chatInput}>
                         <QuestionInput
                             clearOnSend
-                            placeholder="企業内向けChatGPTと会話を始めましょう。（例：ChatGPTについて教えて下さい）"
+                            placeholder="Azure-ChatGPTと会話を始めましょう。（例：GPTへの質問（プロンプト）の書き方を教えて下さい）"
                             disabled={isLoading}
                             onSend={question => makeApiRequest(question)}
                         />
