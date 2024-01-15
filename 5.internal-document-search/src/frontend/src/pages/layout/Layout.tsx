@@ -31,18 +31,18 @@ const Layout = () => {
             <header className={styles.header} role={"banner"}>
                 <div className={styles.headerContainer}>
                     <Link to="/" className={styles.headerTitleContainer}>
-                        <h3 className={styles.headerTitleLeft}>企業内向けChatと社内文書検索</h3>
+                        <h3 className={styles.headerTitleLeft}>アースアイズ専用Chat</h3>
                     </Link>
                     <nav>
                         <ul className={styles.headerNavList}>
                             <li>
                                 <NavLink to="/" className={({ isActive }) => (isActive ? styles.headerNavPageLinkActive : styles.headerNavPageLink)}>
-                                    企業内向けChat
+                                    GPTへの質問
                                 </NavLink>
                             </li>
                             <li className={styles.headerNavLeftMargin}>
                                 <NavLink to="/docsearch" className={({ isActive }) => (isActive ? styles.headerNavPageLinkActive : styles.headerNavPageLink)}>
-                                    社内文書検索
+                                    社内文書への質問
                                 </NavLink>
                             </li>
                         </ul>
